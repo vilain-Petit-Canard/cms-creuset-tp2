@@ -3,7 +3,7 @@
     margin: 2rem;
     gap:1rem;
 }
-.modele div{
+.tuile div{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,6 @@
     padding:1rem
 }
 
-.modele img {
+.tuile img {
     max-width: 100px;
 }

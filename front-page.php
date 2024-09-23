@@ -61,12 +61,14 @@ if($article_categories):
 				);
 				// requete
 				$the_query = new WP_Query( $args );
-				// afficher les posts
+				// afficher les articles
 				if( $the_query->have_posts() ): ?>
 					<div class="post_display">
-					<?php while( $the_query->have_posts() ) : $the_query->the_post();
 
-						get_template_part( 'template-parts/modele' );
+					<?php while( $the_query->have_posts() ) : 
+						$the_query->the_post();
+
+						get_template_part( 'template-parts/tuile' );
 				
 					endwhile; ?>
 					</div>

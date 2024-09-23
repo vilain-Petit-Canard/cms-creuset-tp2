@@ -5,7 +5,7 @@ $article_image = $champs['article_image'];
 
 ?>
 
-<article class="modele post_display_item">
+<article class="tuile post_display_item">
 	<a href="<?php the_permalink(); ?>">
         <div>
             <?php if ( $article_image ) : ?>
